@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+<style> 
 body {
   background-color: hsl(185, 41%, 84%);
-}
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 #rcorners1 {
   border-radius: 25px;
@@ -23,23 +18,27 @@ body {
 #rcorners2 {
   border-radius: 25px;
   background: hsl(183, 100%, 15%);
-  padding: 20px;
+  padding: 20px; 
   width: 300px;
-  height: 300px;
-}
+  height: 300px; 
+  margin-left: auto;
+  margin-right: auto;
 
-</style>
+}
 </style>
 </head>
 <body>
 
-<img src="/images/logo.svg" alt="Logo" >
-
-<p>The background color can be specified with a color name.</p>
+<h1>The border-radius Property</h1>
 
 <p>Rounded corners for an element with a specified background color:</p>
+<div class="w3-container">
 <p id="rcorners1">Rounded corners!</p>
-<p id="rcorners2">Rounded corners!</p>
+	<div class="child">
+    <p id="rcorners2">Rounded corners!</p>
+    </div>
+</div>
+
 
 </body>
-</html> 
+</html>
