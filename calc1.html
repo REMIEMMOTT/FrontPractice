@@ -2,57 +2,8 @@
 <html>
 <head>
 <style>
-/* HSL */
-$color1: hsla(117%, 50%, 84%, 1);
-$color2: hsla(114%, 15%, 75%, 1);
-$color3: hsla(305%, 12%, 61%, 1);
-$color4: hsla(327%, 19%, 45%, 1);
-$color5: hsla(319%, 13%, 5%, 1);
-
 body {
-  font-family: 'Roboto Slab', serif;
-  background: $color1;
-  color: $color5;
-}
-
-div {
-  border-radius: 10px;
-  text-align: center;
-}
-
-h2 {
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  padding: 0 10px;
-  margin-bottom: 5px;
-}
-
-code {
-  padding: 5px 0px;
-  font-weight: normal;
-  text-transform: none;
-  font-size: 16px;
-}
-
-.parent {
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  grid-template-rows: 150px 1fr;
-  background: $color2;
-  width: 80vw;
-  margin: 8vw 10vw;
-  height: 200px;
-  border: 5px dotted $color4;
-}
-
-.child {
-  grid-area: 1 / 1 / 2 / 2;
-  opacity: 0.8;
-  height: 150px;
-  background: $color3;
-  border: 3px dotted $color4;
-  width: 250px;
+  background-color: hsl(185, 41%, 84%);
 }
 .img {
   display: block;
@@ -76,15 +27,7 @@ code {
   width: 300px;
   height: 300px;
 }
-.parent {
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  grid-template-rows: 150px 1fr;
-}
 
-.child {
-  grid-area: 1 / 1 / 2 / 2;
-}
 </style>
 </style>
 </head>
@@ -97,18 +40,6 @@ code {
 <p>Rounded corners for an element with a specified background color:</p>
 <p id="rcorners1">Rounded corners!</p>
 <p id="rcorners2">Rounded corners!</p>
-
-<div class="parent">
-  <h2>parent<br>
-   <code>display: grid;<br>
-    grid-template-columns: 250px 1fr;<br>
-    grid-template-rows: 150px 1fr;<br></code>
-  </h2>
-  <div class="child">
-      <h2>child</h2>
-      <code>grid-area: 1 / 1 / 2 / 2;</code>
-  </div>
-</div>
 
 </body>
 </html> 
