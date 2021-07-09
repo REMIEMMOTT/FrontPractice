@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://remiemmott.github.io/FrontPractice/)
+- Solution URL: [Add solution URL here](https://remiemmott.github.io/FrontPractice/calc)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
